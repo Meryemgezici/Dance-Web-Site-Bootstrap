@@ -1,0 +1,102 @@
+@import "variables";
+%btn-ozel{
+    border: none;
+    padding: 15px;
+    margin: 10px/2;
+    border-radius: 3px;
+    outline: none;
+    background-color: $main-blue;
+    color: white;
+    &:hover{
+        background-color: #F5C5D0;
+       
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+//   Navbar start
+.navbar {
+    background-color: $main-blue;
+
+    a {
+        font-size: 1.5rem;
+        &:hover {
+            font-size: 1.7rem;
+            color: #F5C5D0 !important;
+        }
+    }
+}
+//   Navbar end
+
+// Slider start
+.imgSlider{
+    height: 800px;
+}
+// Slider end
+
+// About us start
+.about-us{
+    background-color: #f2f2f2;
+    &-line{
+        border: none;
+        border-top: 3px solid #343a40 !important;
+        max-width: 250px;
+        margin: 1.5rem auto;
+    }
+    &-leaf-gray{
+        color:#343a40 ;
+        position: relative;
+        top: -55px;
+        font-size: 40px;
+        border: 10px solid #f2f2f2;
+        background-color: #f2f2f2;
+    }
+}
+// About us end
+
+// Courses Start
+.courses{
+    &-leaf-white{
+        color:#343a40 ;
+        position: relative;
+        top: -55px;
+        font-size: 40px;
+        border: 10px solid white;
+        background-color: white;
+    }
+    &-main-btn{
+        @extend %btn-ozel ;
+    }
+    &-box{
+        &:hover{
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+}
+
+// Courses end
+
+// Gallery Start
+.gallery{
+    background-color: #f2f2f2;
+}
+
+.figure:hover{
+    opacity: 0.8;
+}
+// Gallery End
+
+footer{
+    background-color: #000c55;
+}

@@ -1,0 +1,81 @@
+.courses-main-btn {
+  border: none;
+  padding: 15px;
+  margin: 10px/2;
+  border-radius: 3px;
+  outline: none;
+  background-color: #000c55;
+  color: white;
+}
+.courses-main-btn:hover {
+  background-color: #F5C5D0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+  background-color: #000c55;
+}
+.navbar a {
+  font-size: 1.5rem;
+}
+.navbar a:hover {
+  font-size: 1.7rem;
+  color: #F5C5D0 !important;
+}
+
+.imgSlider {
+  height: 800px;
+}
+
+.about-us {
+  background-color: #f2f2f2;
+}
+.about-us-line {
+  border: none;
+  border-top: 3px solid #343a40 !important;
+  max-width: 250px;
+  margin: 1.5rem auto;
+}
+.about-us-leaf-gray {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.courses-leaf-white {
+  color: #343a40;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid white;
+  background-color: white;
+}
+.courses-box:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.gallery {
+  background-color: #f2f2f2;
+}
+
+.figure:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: #000c55;
+}/*# sourceMappingURL=style.css.map */
